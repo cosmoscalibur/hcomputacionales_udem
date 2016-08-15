@@ -11,9 +11,10 @@ Edward Yesid Villegas: ingeniero físico y magíster en física aplicada de la U
 Correo: [evillegas@udem.edu.co]()  
 Asesoría: Los días jueves y viernes son asesorías de otras materias, pero que en ausencia de estudiantes de estas puedo atenderlos.  
 
-+ Tentativo Herramientas: Lunes 11 A.M. a 12M., o Martes 10 A.M. a 11 A.M.
-+ Jueves: 2 a 4 P.M.  
-+ Viernes: 9 a 11 A.M.  
++ Exclusivo: Martes 10 A.M. a 11:30 A.M.  
++ Exclusivo: Viernes 11 a 11:30 A.M.  
++ Jueves (prioridad métodos y física): 2 a 4 P.M.  
++ Viernes (prioridad física): 9 a 11 A.M.  
 
 ## Requisitos recomendables
 
