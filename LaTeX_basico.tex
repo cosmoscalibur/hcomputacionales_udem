@@ -1,0 +1,120 @@
+% # LaTeX Básico
+% Este documento es preparado para el desarrollo del curso de Herramientas Computacionales para el tema de ``introducción a LaTeX'' por Edward Villegas. Estas notas de clase se desarrollan de una forma alternativa, en la cual el archivo pdf suministrado corresponde exclusivamente al archivo de salida de LaTeX generado para ilustración de su uso pero todo el detalle sobre como funciona se encuentra como comentarios en estilo markdown en el código LaTeX (archivo .tex).  
+% Este documento sobre el uso de LaTeX sigue su explicación en un orden dado por la misma estructura del documento de ejemplo.  
+
+% ## LaTeX  
+% Es un lenguaje de marcado y lenguaje de programación para la creación de documentos de una forma consistente, de especial uso para texto científico.
+
+% ## Instalación  
+% El proceso de instalación será dependiente de su sistema operativo. En general, la instalación de LaTeX se puede dividir en un editor y un compilador, ademas de una serie de adiciones que permiten al compilador el soporte de multiples opciones para la generación del documento.  
+
+% ### Compilador  
+% En windows, podemos encontrar el compilador libre [MikTeX](http://miktex.org/), el cual presenta multiples versiones acorde a las necesidades. Es posible tener un instalador que preinstale solo la base y los paquetes requeridos los descargue en la medida que el compilador los requiera o usar una distribución completa (basada en el proyecto CTAN). Tambien es posible una versión portable del compilador.  
+%
+% En linux, el compilador libre de LaTeX es TeXLive. Este puede instalarse de una manera simple mediante el repositorio de la mayoría de distribuciones. Partiendo del uso de Ubuntu y una conexión a internet:  
+%
+%	sudo apt install -y texlive texlive-latex-recommended texlive-fonts-recommended texlive-lang-spanish
+%
+% Si el sistema operativo es mac, se recomienda el uso de la distribución [MacTeX](http://tug.org/mactex/), la cual incluye tanto el compilador como el editor.  
+% Tambien es posible usar LaTeX en línea o en android.  
+
+% ### Editor  
+% El editor es una herramienta opcional al considerar la instalación de LaTeX. No es requerido pero facilitará el uso de LaTeX tanto al usuario avanzado como para el usuario principiante, permitiendo opciones como autocompletado, resaltado de sintaxis, explorador de archivos, asistente de código, visualización de archivo de salida y fuente de forma paralela, atajos a las opciones de compilación, corrección de ortografía entre otras tantas caracteristicas.  
+%
+% Si se siente conforme con el lenguaje y con la consola, bastara cualquier editor de texto plano. Si desea algo más de ayuda, utilidades como nano, vim, emacs o atom ofrecen de manera simple opciones básicas de resaltado de sintaxis, corrección de ortografía e incluso atajos al compilador. Si desea algo más de ayuda y gráfico, una opción multiplataforma y libre es una buena opción, recomendando principalmente a [TeXMaker](http://www.xm1math.net/texmaker/).  
+%
+% Si usa Ubuntu, puede instalarlo como:
+%
+%	sudo apt -y install texmaker  
+
+% #### Diccionario  
+
+ 
+
+% ## Estructura del documento  
+\documentclass[12pt]{article}
+
+\usepackage[letterpaper,margin={1.5cm}]{geometry}
+%% Paquetes AMS para simbolos y fuentes matematicos
+\usepackage{amsmath, amssymb, amsfonts}
+
+% ### Localización  
+% #### Codificación  
+% Una excelente discusión sobre el uso de la codificación de entrada y salida puede encontrarse [TeX Stack Exchange](http://tex.stackexchange.com/questions/44694/fontenc-vs-inputenc). 
+% inputenc: Controla la codificación de entrada. El uso de utf8 permite el ingreso de caracteres no ingleses (e.g. latinos) al código fuente desde el teclado.
+\usepackage[utf8]{inputenc}
+% fontenc: Controla la codificación de salida. El uso de T1 permite el uso para impresión en el documento de caracteres usados en las lenguas más comunes de europa. Es de utilidad para el adecuado control de separación de silabas en palabras acentuadas.
+\usepackage[T1]{fontenc}
+% babel: Controla las traducciones de los textos automaticos (por los paquetes que lo soporten). Al usar 'spanish' podemos usar las traducciones españolas de los textos, formato español de la fecha y el uso del separador decimal coma (convertido por LaTeX a partir del punto).
+\usepackage[spanish]{babel}
+
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{hyperref}
+
+\graphicspath{{./}}
+
+\allowdisplaybreaks
+
+\setlength{\parindent}{0cm}
+
+% \DeclareMathOperator{\sen}{sen}
+% \renewcommand{\sin}{\sen}
+\newcommand{\diff}[3]{\frac{d^{#3} #1}{d#2^{#3}}}
+\newcommand{\pdiff}[3]{\frac{\partial^{#3} #1}{\partial #2^{#3}}}
+\newcommand{\abs}[1]{\left| #1 \right|}
+
+\author{Edward Villegas\thanks{evillegas@udem.edu.co}\\Universidad de Medellín \and Autor 2\\Afiliación 2}
+\title{\LaTeX \ Ejemplo}
+%	\date{15 de agosto de 2016}
+% Por defecto \maketitle invoca \date{\today} para imprimir la fecha actual de compilación.
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Este documento es preparado para el desarrollo del curso de Herramientas Computacionales para el tema de ``introducción a LaTeX'' por Edward Villegas. Estas notas de clase se desarrollan de una forma alternativa, en la cual el archivo pdf suministrado corresponde exclusivamente al archivo de salida de LaTeX generado para ilustración de su uso pero todo el detalle sobre como funciona se encuentra como comentarios en estilo markdown en el código LaTeX (archivo .tex).
+Este documento sobre el uso de LaTeX sigue su explicación en un orden dado por la misma estructura del documento de ejemplo.
+\end{abstract}
+
+\section{\LaTeX}
+Es un lenguaje de marcado y lenguaje de programación para la creación de documentos de una forma consistente, de especial uso para texto científico.
+
+\section{Instalación}
+
+El proceso de instalación será dependiente de su sistema operativo. En general, la instalación de LaTeX se puede dividir en un editor y un compilador, ademas de una serie de adiciones que permiten al compilador el soporte de múltiples opciones para la generación del documento.
+
+\subsection{Compilador}
+
+En windows, podemos encontrar el compilador libre \href{http://miktex.org/}{MikTeX}, el cual presenta múltiples versiones acorde a las necesidades. Es posible tener un instalador que preinstale solo la base y los paquetes requeridos los descargue en la medida que el compilador los requiera o usar una distribución completa (basada en el proyecto CTAN). También es posible una versión portable del compilador.
+
+En linux, el compilador libre de LaTeX es TeXLive. Este puede instalarse de una manera simple mediante el repositorio de la mayoría de distribuciones. Partiendo del uso de Ubuntu y una conexión a internet:
+
+\begin{verbatim}
+sudo apt -y install texlive texlive-latex-recommended texlive-fonts-recommended \
+    texlive-lang-spanish
+\end{verbatim}
+
+Con lo anterior tenemos instalado el compilador junto con unos paquetes recomendados y fuentes, al igual que la información requerida para el uso correcto en \LaTeX \ del lenguaje español.
+
+Es posible ayudarse con un editor gráfico para facilitar su uso. Un editor multiplataforma y libre recomendado es TeXMaker, el cual encontramos en el repositorio de ubuntu como \verb-texmaker-.
+
+A continuación, solo nos hace falta tener un diccionario para la corrección de ortografía. Si usamos linux, esto puede ser usando alguno de los diccionarios existentes en el repositorio, o si lo preferimos uno externo obtenido a partir de los usados por procesadores de texto como \href{https://www.dropbox.com/sh/y45katzvdjrl7nl/AAAwM89aDOJ_jA_Py3DdFJN8a?dl=0}{libreoffice} o \href{https://www.dropbox.com/sh/y45katzvdjrl7nl/AAAwM89aDOJ_jA_Py3DdFJN8a?dl=0}{WPS}. Los archivos \verb-.dic- o \verb-.aff- permiten la corrección ortográfica (para TeXMaker use \verb-.dic-) y los archivos \verb-.hyph- sirven para la separación silabica de las palabras.
+
+\section{Localización}
+
+LaTeX permite realizar ajustes de localización en el compilador mediante la invocación de algunos paquetes que se encargan de controlar la codificación de caracteres, el lenguaje de los textos automáticos y algunos formatos como la fecha y el formato numérico.
+
+La fecha de este documento no fue digitada, sino generada durante tiempo de compilación, y es expresada en español y en el formato español de la forma \verb-DD de MMM de AAAA-. Igualmente, el titulo \textbf{Resumen} fue generado de manera automática. En ambos casos, el paquete \verb-babel- con la opción \verb-spanish- se encarga que las invocaciones a \verb-\date{}- y \verb-\begin{abstract}...\end{abstract}- realicen el uso adecuado del idioma español. Esto es cierto también para las expresiones matemáticas como $\sen(2.5)$, donde el separador decimal en el código posee originalmente el punto, y el operador \verb-\sen- es incluido por \verb-babel- en reemplazo del \verb-\sin-.
+
+\subsection{Codificación}
+
+La codificación controla la forma de interpretar los caracteres. En \LaTeX \ requerimos tanto codificación de entrada como de salida, siendo la primera requerida para el ingreso directo de caracteres por medio de teclado y la segunda para la impresión adecuada en el documento generado (en ambos pasos para caracteres especiales o que no pertenecen al inglés). La codificación de entrada recomendada es UTF8 y la de salida es T1. Para la codificación de entrada se usa el paquete \verb-inputenc- y para la codificación de salida se usa el paquete \verb-fontenc-.
+ 
+% # Bibliografía  
+%
+% + [Creating a document in LaTeX](https://es.sharelatex.com/learn/Creating_a_document_in_LaTeX). ShareLaTeX. Consultado el 15 de agosto de 2016.  
+% + [Fontenc vs Inputenc](http://tex.stackexchange.com/questions/44694/fontenc-vs-inputenc). TeX Stack Exchange. Consultado el 15 de agosto de 2016.  
+% + [Detexify](http://detexify.kirelabs.org/classify.html). Daniel Kirsh. Consultado el 15 de agosto de 2016.  
+\end{document}
