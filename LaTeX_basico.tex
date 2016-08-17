@@ -23,9 +23,6 @@
 %
 % Si se siente conforme con el lenguaje y con la consola, bastara cualquier editor de texto plano. Si desea algo más de ayuda, utilidades como nano, vim, emacs o atom ofrecen de manera simple opciones básicas de resaltado de sintaxis, corrección de ortografía e incluso atajos al compilador. Si desea algo más de ayuda y gráfico, una opción multiplataforma y libre es una buena opción, recomendando principalmente a [TeXMaker](http://www.xm1math.net/texmaker/).  
 %
-% Si usa Ubuntu, puede instalarlo como:
-%
-%	sudo apt -y install texmaker  
 
 % #### Diccionario  
 
@@ -35,8 +32,6 @@
 \documentclass[12pt]{article}
 
 \usepackage[letterpaper,margin={1.5cm}]{geometry}
-%% Paquetes AMS para simbolos y fuentes matematicos
-\usepackage{amsmath, amssymb, amsfonts}
 
 % ### Localización  
 % #### Codificación  
@@ -48,10 +43,27 @@
 % babel: Controla las traducciones de los textos automaticos (por los paquetes que lo soporten). Al usar 'spanish' podemos usar las traducciones españolas de los textos, formato español de la fecha y el uso del separador decimal coma (convertido por LaTeX a partir del punto).
 \usepackage[spanish]{babel}
 
-\usepackage{graphicx}
+%% Paquetes AMS para simbolos y fuentes matematicos
+\usepackage{amsmath, amssymb, amsfonts}
+
+
 \usepackage{enumitem}
+
+\usepackage{graphicx}
+\usepackage{listings}
+%\usepackage{subfig}
+%\usepackage{subfloat}
+%\usepackage{subcaption}
+\usepackage{caption}
+%\usepackage{tabularx}
+%\usepackage{longtable}
 \usepackage{multicol}
+
+\usepackage{cite}
+%\usepackage{natbib}
+
 \usepackage{hyperref}
+\usepackage{url}
 
 \graphicspath{{./}}
 
@@ -65,7 +77,8 @@
 \newcommand{\pdiff}[3]{\frac{\partial^{#3} #1}{\partial #2^{#3}}}
 \newcommand{\abs}[1]{\left| #1 \right|}
 
-\author{Edward Villegas\thanks{evillegas@udem.edu.co}\\Universidad de Medellín \and Autor 2\\Afiliación 2}
+\author{Edward Villegas\thanks{evillegas@udem.edu.co}\\Universidad de Medellín}
+%\author{Edward Villegas\thanks{evillegas@udem.edu.co}\\Universidad de Medellín \and Autor 2\\Afiliación 2}
 \title{\LaTeX \ Ejemplo}
 %	\date{15 de agosto de 2016}
 % Por defecto \maketitle invoca \date{\today} para imprimir la fecha actual de compilación.
@@ -78,7 +91,9 @@ Este documento es preparado para el desarrollo del curso de Herramientas Computa
 Este documento sobre el uso de LaTeX sigue su explicación en un orden dado por la misma estructura del documento de ejemplo.
 \end{abstract}
 
-\section{\LaTeX}
+\tableofcontents
+
+\part{\LaTeX}
 Es un lenguaje de marcado y lenguaje de programación para la creación de documentos de una forma consistente, de especial uso para texto científico.
 
 \section{Instalación}
@@ -96,25 +111,176 @@ sudo apt -y install texlive texlive-latex-recommended texlive-fonts-recommended 
     texlive-lang-spanish
 \end{verbatim}
 
-Con lo anterior tenemos instalado el compilador junto con unos paquetes recomendados y fuentes, al igual que la información requerida para el uso correcto en \LaTeX \ del lenguaje español.
+Si el sistema operativo es mac, se recomienda el uso de la distribución \href{http://tug.org/mactex/}{MacTeX}, la cual incluye tanto el compilador como el editor.
+También es posible usar \LaTeX \ en línea o en android.
 
-Es posible ayudarse con un editor gráfico para facilitar su uso. Un editor multiplataforma y libre recomendado es TeXMaker, el cual encontramos en el repositorio de ubuntu como \verb-texmaker-.
+\subsection{Editor}
 
-A continuación, solo nos hace falta tener un diccionario para la corrección de ortografía. Si usamos linux, esto puede ser usando alguno de los diccionarios existentes en el repositorio, o si lo preferimos uno externo obtenido a partir de los usados por procesadores de texto como \href{https://www.dropbox.com/sh/y45katzvdjrl7nl/AAAwM89aDOJ_jA_Py3DdFJN8a?dl=0}{libreoffice} o \href{https://www.dropbox.com/sh/y45katzvdjrl7nl/AAAwM89aDOJ_jA_Py3DdFJN8a?dl=0}{WPS}. Los archivos \verb-.dic- o \verb-.aff- permiten la corrección ortográfica (para TeXMaker use \verb-.dic-) y los archivos \verb-.hyph- sirven para la separación silabica de las palabras.
+El editor es una herramienta opcional al considerar la instalación de LaTeX. No es requerido pero facilitará el uso de LaTeX tanto al usuario avanzado como para el usuario principiante, permitiendo opciones como autocompletado, resaltado de sintaxis, explorador de archivos, asistente de código, visualización de archivo de salida y fuente de forma paralela, atajos a las opciones de compilación, corrección de ortografía entre otras tantas características.  
 
-\section{Localización}
+Si se siente conforme con el lenguaje y con la consola, bastara cualquier editor de texto plano. Si desea algo más de ayuda, utilidades como nano, vim, emacs o atom ofrecen de manera simple opciones básicas de resaltado de sintaxis, corrección de ortografía e incluso atajos al compilador. Si desea algo más de ayuda y gráfico, una opción multiplataforma y libre es una buena opción, recomendando principalmente a \href{http://www.xm1math.net/texmaker/}{TeXMaker}. En el repositorio de ubuntu lo encontramos como \verb-texmaker-.
+
+\subsubsection{Diccionario}
+
+A continuación, solo nos hace falta tener un diccionario para la corrección de ortografía. Si usamos linux, esto puede ser usando alguno de los diccionarios existentes en el repositorio, o si lo preferimos uno externo obtenido a partir de los usados por procesadores de texto como \href{https://www.dropbox.com/sh/y45katzvdjrl7nl/AAAwM89aDOJ_jA_Py3DdFJN8a?dl=0}{libreoffice} o \href{https://www.dropbox.com/sh/y45katzvdjrl7nl/AAAwM89aDOJ_jA_Py3DdFJN8a?dl=0}{WPS}. Los archivos \verb-.dic- o \verb-.aff- permiten la corrección ortográfica (para TeXMaker use \verb-.dic-) y los archivos \verb-.hyph- sirven para la separación silábica de las palabras.
+
+\section{Sintaxis}
+
+El primer detalle de \LaTeX \ es saber que toda instrucción del lenguaje inicia con \textit{backslash} (\verb-\-) a diferencia de los comentarios y algunas expresiones matemáticas. Estas instrucciones pueden ser de distinta naturaleza como se indica a continuación.
+
+\begin{itemize}
+\item Comando: Se identifican por \textbackslash inicial seguido del nombre del comando. Si este posee argumentos, cada argumento se ubica entre llaves individuales.
+\item Ambiente: Se identifica por la estructura \verb-\begin{ambiente} bloque \end{ambiente}-, donde \verb-ambiente- es el nombre del ambiente deseado y \verb-bloque- es un conjunto de texto sobre el cual aplicara el comportamiento del ambiente. En caso de usar argumentos, estos aparecen entre corchetes posterior a las llaves de inicio.
+\item Comentario: Los comentarios inician con \# en cada linea.
+\item Ecuaciones no numeradas: Es posible usar para las ecuaciones no numeradas las estructuras \verb-$ecuacion$- y \verb-$$ecuacion$$-, sin embargo no es recomendado.
+\end{itemize}
+
+En \LaTeX \ se da omisión de los saltos de linea o espacios multiples dados de forma directa en el código fuente. Si se desea crear un salto de linea se debe indicar mediante \verb-\\- (y otro por cada linea en blando deseada), y en el caso de un espacio múltiple seguir la secuencia \verb- \ - (espacio+\textbackslash +espacio) por cada espacio adicional deseado.
+
+\part{Estructura del documento}
+
+La estructura de un documento \LaTeX \ se puede dividir en:
+
+\begin{enumerate}
+\item Preámbulo.
+	\begin{enumerate}
+	\item Definición del tipo de documento.
+	\item Carga de paquetes.
+	\item Definición de parámetros y opciones de paquetes.
+	\item Macros (comandos y entornos de usuario).
+	\item Definición de variables.
+	\item Instrucciones para el compilador.
+	\end{enumerate}
+\item Documento.
+	\begin{enumerate}
+	% \item \textit{Front matter}.
+	\item Titulo (portada).
+	\item Resumen.
+	\item Tabla de contenido (y otras listas).
+	% \item \textit{Main matter}.
+	\item Cuerpo.
+	% \item \textit{Back matter}
+	\item Bibliografía.
+	\end{enumerate}
+\end{enumerate}
+
+\section{Preámbulo}
+
+\subsection{Tipo de documento}
+
+La definición del tipo de documento se realiza mediante la instrucción \verb-\documentclass-, la cual permite definir ademas el tamaño de la fuente y opciones generales del documento como ser una versión borrador o final, el tamaño y orientación del papel, el uso de múltiples columnas y si es un documento a uno o dos lados, la alineación de las ecuaciones, el titulo de página y la apertura de capítulos.
+
+Siempre debe ser la primera linea del código fuente (exceptuando comentarios).
+
+\subsection{Carga de paquetes}
+
+La mayor parte de las características que usamos en \LaTeX \ se gestionan a través de la invocación de paquetes. Resulta conveniente respecto a los tiempos de compilación para la generación de un documento, que nuestro preámbulo no realice invocaciones a paquetes que no serán utilizados en el documento.
+
+En el preámbulo hacemos uso de \verb-usepackage- para este fin, donde el paquete se especifica en medio de llaves, y de ser necesario podemos hacer uso de la configuración de opciones durante la misma carga de los paquetes indicándolas en corchetes.
+
+\begin{verbatim}
+\usepackage[opciones]{paquete}
+\end{verbatim}
+
+
+\subsubsection{Localización}
 
 LaTeX permite realizar ajustes de localización en el compilador mediante la invocación de algunos paquetes que se encargan de controlar la codificación de caracteres, el lenguaje de los textos automáticos y algunos formatos como la fecha y el formato numérico.
 
+\paragraph{Codificación}
+
+La codificación controla la forma de interpretar los caracteres. En \LaTeX \ requerimos tanto codificación de entrada como de salida, siendo la primera requerida para el ingreso directo de caracteres por medio de teclado y la segunda para la impresión adecuada en el documento generado (en ambos pasos para caracteres especiales o que no pertenecen al inglés). Una excelente discusión sobre el uso de la codificación de entrada y salida puede encontrarse \href{http://tex.stackexchange.com/questions/44694/fontenc-vs-inputenc}{TeX Stack Exchange} \cite{Stack2016}.
+
+\begin{itemize}
+\item \verb-inputenc-: Controla la codificación de entrada. El uso de utf8 permite el ingreso de caracteres no ingleses (e.g. latinos) al código fuente desde el teclado.
+\item \verb-fontenc-: Controla la codificación de salida. El uso de T1 permite el uso para impresión en el documento de caracteres usados en las lenguas más comunes de Europa. Es de utilidad para el adecuado control de separación de silabas en palabras acentuadas.
+\end{itemize}
+
+\subsubsection{Lenguaje}
+
 La fecha de este documento no fue digitada, sino generada durante tiempo de compilación, y es expresada en español y en el formato español de la forma \verb-DD de MMM de AAAA-. Igualmente, el titulo \textbf{Resumen} fue generado de manera automática. En ambos casos, el paquete \verb-babel- con la opción \verb-spanish- se encarga que las invocaciones a \verb-\date{}- y \verb-\begin{abstract}...\end{abstract}- realicen el uso adecuado del idioma español. Esto es cierto también para las expresiones matemáticas como $\sen(2.5)$, donde el separador decimal en el código posee originalmente el punto, y el operador \verb-\sen- es incluido por \verb-babel- en reemplazo del \verb-\sin-.
 
-\subsection{Codificación}
+Múltiples paquetes dan soporte de \verb-babel- para permitir adaptar sus textos a las normas del idioma requerido, y así no deben ser redefinidos siempre por el usuario.
 
-La codificación controla la forma de interpretar los caracteres. En \LaTeX \ requerimos tanto codificación de entrada como de salida, siendo la primera requerida para el ingreso directo de caracteres por medio de teclado y la segunda para la impresión adecuada en el documento generado (en ambos pasos para caracteres especiales o que no pertenecen al inglés). La codificación de entrada recomendada es UTF8 y la de salida es T1. Para la codificación de entrada se usa el paquete \verb-inputenc- y para la codificación de salida se usa el paquete \verb-fontenc-.
+\subsection{Parámetros y opciones}
+Ejemplo de opciones y parámetros.
+\begin{verbatim}
+\graphicspath{{./}}
+
+\allowdisplaybreaks
+
+\setlength{\parindent}{0cm}
+\end{verbatim}
+
+\section{Documento}
+El inicio del documento y su final, son especificados por el ambiente \verb-document-.
+
+\section{Portada}
+
+Es posible definir una portada automatica a partir de configuraciones asociadas a clases y los comandos que predefinen estas para la información del documento, a partir del comando \verb-maketitle-.
+
+\subsection{Cuerpo}
+
+\subsubsection{Ecuaciones}
+
+Es posible generar ecuaciones en linea de texto mediante los delimitadores \verb-$ecuacion$- o \verb-\(ecuacion\)-, tal como se presenta en esta linea: $\int_0^\tau\left(\frac{x}{2}+\cos(x)\right)dx$ o \(\int_0^\tau\left(\frac{x}{2}+\cos(x)\right)dx\). Como se aprecian lucen identicas, así que la diferencia de uso es cuestión de facilidad para el compilador y de identificación visual del adecuado cierre.
+
+Para las ecuaciones fuera de linea existen diferencias frente a requerir numeración. Si no se requiere numeración es posible usar \verb-$$ecuacion$$- o \verb-\[ecuacion\]-. \[\int_0^\tau\left(\frac{x}{2}+\cos(x)\right)dx.\]
+
+En caso de requerir numeración, o mayor control sobre alineación y multiple linea se debe usar ambientes matemáticos como \verb-equation-, \verb-eqnarray- o \verb-align-.
+
+\begin{equation}
+\int_0^\tau\left(\frac{x}{2}+\cos(x)\right)dx \label{ec:ejemplo}
+\end{equation}
+
+La ecuación \ref{ec:ejemplo} se realizo con \verb-equation- y puede ser referenciada usando \verb-label- en la ecuación y \verb-ref- en el texto. Para multiple linea usamos \verb-eqnarray-.
+
+\begin{eqnarray*}
+a & = & \int_0^\tau\left(\frac{x}{2}+\cos(x)\right)dx \\
+b & = & \tan(\Gamma(x)) \text{Texto en medio.} % \nonumber % esto tambien elimina numeracion pero en lineas
+\end{eqnarray*}
+
+\subsubsection{Tablas}
+
+\begin{table}[t]
+\begin{center}
+\begin{tabular}{|c|l|r|}
+\hline
+\textbf{Pais} & \textit{Capital} & \underline{Residencia}\\
+\hline
+Colombia & Bogota & Si\\
+Alemania & Berlin & No\\
+\hline
+\end{tabular} \caption{Tabla de ejemplo} \label{t:ejemplo}
+\end{center}
+\end{table}
+
+
+La tabla \ref{t:ejemplo} es construida con \verb-tabular- para la alineación y \verb-table- para la adecuada indicación de una tabla y permitir su referencia y leyenda. El centrado se logra con el ambiente \verb-center-.
+
+\subsubsection{Imágenes}
+
+\begin{figure}[h]
+\begin{flushright}
+\includegraphics[scale=0.5]{jupyter.png}
+\caption{Imagen de ejemplo} \label{i:ejemplo}
+\end{flushright}
+\end{figure}
+
+\subsubsection{Códigos}
+\begin{lstlisting}[language=python]
+from numpy import sin, pi
+a = sin(2*pi)
+print a
+\end{lstlisting}
  
 % # Bibliografía  
 %
 % + [Creating a document in LaTeX](https://es.sharelatex.com/learn/Creating_a_document_in_LaTeX). ShareLaTeX. Consultado el 15 de agosto de 2016.  
-% + [Fontenc vs Inputenc](http://tex.stackexchange.com/questions/44694/fontenc-vs-inputenc). TeX Stack Exchange. Consultado el 15 de agosto de 2016.  
+% + [Fontenc vs Inputenc](http://tex.stackexchange.com/a/44699). TeX Stack Exchange. Consultado el 15 de agosto de 2016.  
 % + [Detexify](http://detexify.kirelabs.org/classify.html). Daniel Kirsh. Consultado el 15 de agosto de 2016.  
+
+\begin{thebibliography}{9}
+\bibitem{Stack2016} Fontenc vs Inputenc, \textbf{TeX Stack Exchange} \url{http://tex.stackexchange.com/a/44699}. Consultado el 15 de agosto de 2016.
+\end{thebibliography}
 \end{document}
