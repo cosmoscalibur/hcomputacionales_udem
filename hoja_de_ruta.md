@@ -2,7 +2,9 @@
 
 Este documento constituye una referencia del trabajo por realizar en este repositorio y de las posibles mejoras para versiones futuras.  
 
-## v0.1beta  
+Las versiones _beta_ de esta documentación son las versiones en desarrollo que se consultan del _master_ del repositorio. Las versiones finales, tras su culminación pasarán a tener etiquetas de versión.  
+
+## v0.1.0  
 
 Entrega estimada: 29 de noviembre de 2016.  
 
@@ -42,7 +44,9 @@ Este repositorio esta abierto a las sugerencias que pueden comunicarme por corre
     [] Paraview/VTK.  
 [] Final.  
 
-## v0.1  
+## v0.1.1  
+
+Esta versión es una entrega de corrección de errores en esencia. No hay cambios importantes del contenido salvo la mejora de la redacción.  
 
 Entrega estimada: 23 de enero de 2017.  
 
@@ -52,11 +56,11 @@ Entrega estimada: 23 de enero de 2017.
 [] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`.  
 [] Agregar celdas _raws_ con indicaciones de compilación para el archivo LaTeX (nombre de autor, localización para lenguaje español).  
 [] Adecuación de formato de las referencias en celda markdown.  
-[] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase.  
-[] _Script_ de instalación (descarga del contenido e instalación de paquetes requeridos para el desarrollo del curso).  
+[] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase.    
 
 ## vX.X  
 
+[] _Script_ de instalación (descarga del contenido e instalación de paquetes requeridos para el desarrollo del curso).
 [] Adición de archivo CSS para estilo de presentación del notebook.  
 [] Citación en notebook con la etiqueta html `cite`.  
 [] Versión web/ebook.  
