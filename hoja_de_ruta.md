@@ -19,30 +19,30 @@ ser un derivado de unix.
 
 Este repositorio esta abierto a las sugerencias que pueden comunicarme por correo, chat o persona quienes me conocen, o pueden reportar la mejora o sugerencia como un ISSUE.  
 
-[x] Presentación del curso.  
-[x] Documentación científica y software.  
-    [x] Jupyter Notebook.  
-    [x] LaTeX.  
-[x] Linux.  
-    [x] Utilidades básicas y sistema de archivos.  
-    [x] Programación en bash.    
-[x] Taller Documentación y linux.
-[x] Control de versiones con Git.  
-[] Algebra computacional.  
-    [] Maxima.  
-    [] Sympy.
-[] Taller control de versiones y algebra computacional.  
-[] Parcial.  
-[] Proyecto de aula.  
-[] Procesamiento de texto.  
-[] _Web scrapping_.  
-[] Procesamiento de datos.  
-    [] Bases de datos (SQLite).  
-    [] Estadistica con R.  
-[] Visualización de datos.  
-    [] GnuPlot.  
-    [] Paraview/VTK.  
-[] Final.  
+- [x] Presentación del curso.  
+- [x] Documentación científica y software.  
+    - [x] Jupyter Notebook.  
+    - [x] LaTeX.  
+- [x] Linux.  
+    - [x] Utilidades básicas y sistema de archivos.  
+    - [x] Programación en bash.    
+- [x] Taller Documentación y linux.
+- [x] Control de versiones con Git.  
+- [] Algebra computacional.  
+    - [] Maxima.  
+    - [] Sympy.  
+- [] Taller control de versiones y algebra computacional.  
+- [] Parcial.  
+- [] Proyecto de aula.  
+- [] Procesamiento de texto.  
+- [] _Web scrapping_.  
+- [] Procesamiento de datos.  
+    - [] Bases de datos (SQLite).  
+    - [] Estadistica con R.  
+- [] Visualización de datos.  
+    - [] GnuPlot.  
+    - [] Paraview/VTK.  
+- [] Final.  
 
 ## v0.1.1  
 
@@ -50,17 +50,17 @@ Esta versión es una entrega de corrección de errores en esencia. No hay cambio
 
 Entrega estimada: 23 de enero de 2017.  
 
-[] Agregar bibliografía recomendada a la presentación del curso.  
-[] Actualizar fechas para 20171.  
-[] Evaluar la recomendación de TeXLive en Windows como alternativa para mejor integración multiplataforma.  
-[] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`.  
-[] Agregar celdas _raws_ con indicaciones de compilación para el archivo LaTeX (nombre de autor, localización para lenguaje español).  
-[] Adecuación de formato de las referencias en celda markdown.  
-[] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase.    
+- [] Agregar bibliografía recomendada a la presentación del curso.  
+- [] Actualizar fechas para 20171.  
+- [] Evaluar la recomendación de TeXLive en Windows como alternativa para mejor integración multiplataforma.  
+- [] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`.  
+- [] Agregar celdas _raws_ con indicaciones de compilación para el archivo LaTeX (nombre de autor, localización para lenguaje español).  
+- [] Adecuación de formato de las referencias en celda markdown.  
+- [] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase.    
 
 ## vX.X  
 
-[] _Script_ de instalación (descarga del contenido e instalación de paquetes requeridos para el desarrollo del curso).
-[] Adición de archivo CSS para estilo de presentación del notebook.  
-[] Citación en notebook con la etiqueta html `cite`.  
-[] Versión web/ebook.  
+- [] _Script_ de instalación (descarga del contenido e instalación de paquetes requeridos para el desarrollo del curso).
+- [] Adición de archivo CSS para estilo de presentación del notebook.  
+- [] Citación en notebook con la etiqueta html `cite`.  
+- [] Versión web/ebook.  
