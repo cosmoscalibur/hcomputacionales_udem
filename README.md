@@ -7,3 +7,15 @@ La intención particular de este material es apoyar el curso `6593 HERRAMIENTAS 
 Este repositorio se encuentra en continua revisión, abierto a contribuciones.  
 
 El material asociado en código corresponderá a [licencia MIT](LICENSE) y del contenido textual (y otros) corresponderá a licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
+
+## Referentes  
+
+El diseño de este curso tuvo como referentes los siguientes cursos:  
+
++ [Digital Course Design/Redesign Initiative](https://www.bates.edu/dof/faculty-scholarship/grants-teaching-support/digital-course-designredesign-initiative/).  
++ [02807 Computational Tools for Big Data](https://toolsforbigdata.com/).  
++ [PS239T](https://github.com/rochelleterman/PS239T). Material bastante estructurado, recomendado como material complementario de estudio para el curso.  
+
+Posterior al diseño del curso, encontre la información pública del curso de [Herramientas Computacionales](https://github.com/ComputoCienciasUniandes/HerramientasComputacionales) impartido en el pregrado de Física de la 
+Universidad de los Andes (no lo tome de base pero sirve como un referente del contexto nacional). El motivo de que este material no sea un referente para el diseño del curso, así como otros en el contexto de las herramientas 
+computacionales en ingeniería o ciencia, es por su especificidad. La idea es dar un conjunto de herramientas computacionales en un sentido más amplio que los métodos matematicos aplicado en un computador.  
