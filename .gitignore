@@ -1,6 +1,10 @@
+# Notebooks
 .ipynb_checkpoints
+# LaTeX
 *.aux
 *.out
 *.log
 *.synctex.gz
 *.toc
+# Nano
+*.save
