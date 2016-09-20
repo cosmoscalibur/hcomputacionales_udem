@@ -6,7 +6,7 @@ La intención particular de este material es apoyar el curso `6593 HERRAMIENTAS 
 
 Este repositorio se encuentra en continua revisión, abierto a contribuciones.  
 
-El material asociado en código corresponderá a [licencia MIT](LICENSE) y del contenido textual (y otros) corresponderá a licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
+El material asociado en código corresponderá a [licencia MIT](LICENSE) y del contenido textual (y otros) corresponderá a licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Si desea explorar el material de los notebooks de forma ejecutable sin instalaciones, puede usar el repositorio en [binder](http://mybinder.org/repo/cosmoscalibur/herramientas_computacionales).  
 
 ## Referentes  
 
