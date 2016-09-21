@@ -17,7 +17,8 @@ posibilidad de cambio de las condiciones tras cada semestre.
 
 ### 20162  
 
-
++ [Eduin Serva](https://github.com/EduinHSERNA) [Taller Algebra Computacional Alternativo](https://github.com/EduinHSERNA/Taller-Algebra-Computacional-Alternativo).  
++ [Dario Castaño](https://github.com/dario-castano) [Mini-CAS](https://github.com/dario-castano/miniCAS).  
 
 ## Proyecto de aula  
 
