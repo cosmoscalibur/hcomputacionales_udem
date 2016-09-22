@@ -24,13 +24,11 @@ Este repositorio esta abierto a las sugerencias que pueden comunicarme por corre
     - [x] Programación en bash.    
 - [x] Taller Documentación y linux.
 - [x] Control de versiones con Git.  
-- [ ] Algebra computacional.  
-    - [ ] Maxima.  
-    - [ ] Sympy.  
-- [ ] Taller control de versiones y algebra computacional.  
-- [ ] Parcial.  
+- [x] Algebra computacional y simpy.  
+- [x] Taller control de versiones y algebra computacional.  
+- [x] Parcial.  
 - [ ] Proyecto de aula.  
-- [ ] Procesamiento de texto.  
+- [x] Procesamiento de texto.  
 - [ ] _Web scrapping_.  
 - [ ] Procesamiento de datos.  
     - [ ] Bases de datos (SQLite).  
