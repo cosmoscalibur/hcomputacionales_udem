@@ -8,12 +8,12 @@ Las versiones _beta_ de esta documentación son las versiones en desarrollo que 
 
 Entrega estimada: 29 de noviembre de 2016.  
 
-Esta versión es la versión desarrollada sobre la marcha de la primera oferta del curso. Por cuestiones de tiempo algunas tematicas se desarrollan más a manera de ejemplos con un fuerte contexto asociado al curso presencial y no como un material que pueda ser de utilidad para cualquier usuario con solo su lectura. Igualmente, esta primera versión constituye más un desarrollo de los temas desde mi experiencia personal y no como un documento de referencia. 
+Esta versión es la versión desarrollada sobre la marcha de la primera oferta del curso. Por cuestiones de tiempo algunas tematicas se desarrollan más a manera de ejemplos con un fuerte contexto asociado al curso presencial y no como un material que pueda ser de utilidad para cualquier usuario con solo su lectura. Igualmente, esta primera versión constituye más un desarrollo de los temas desde mi experiencia personal y no como un documento de referencia.
 Respecto a esto último, igual no hay pretenciones de realizar una larga exploración de los temas debido a que cada tematica se trabaja en máximo 2 sesiones.
 
 Debido a la experiencia personal y al enfoque del curso, la mayor parte de la información se relaciona principalmente con el uso de linux. Las alternativas que propongo para windows pueden no ser las mejores debido a que solo uso windows en una maquina virtual por efectos de compatibilidad con usuarios que hacen uso de word. Las alternativas así mencionadas en windows corresponden a estrategias que usaba antes de 2009 (año en que migre completamente a linux) o estrategias de las cuales no me consta su adecuado funcionamiento y que solo se su procedimiento en la teoría. Igualmente para mac, nunca he usado mac y por ende no me consta nada salvo los elementos comunes a linux por ser un derivado de unix.  
 
-Este repositorio esta abierto a las sugerencias que pueden comunicarme por correo, chat o persona quienes me conocen, o pueden reportar la mejora o sugerencia como un ISSUE.  
+Este repositorio esta abierto a las sugerencias que pueden comunicarme por correo, chat o persona quienes me conocen, o pueden reportar la mejora o sugerencia como un [ISSUE](https://github.com/cosmoscalibur/herramientas_computacionales/issues).  
 
 - [x] Presentación del curso.  
 - [x] Documentación científica y software.  
@@ -31,8 +31,8 @@ Este repositorio esta abierto a las sugerencias que pueden comunicarme por corre
 - [x] Procesamiento de texto.  
 - [ ] _Web scrapping_.  
 - [ ] Procesamiento de datos.  
-    - [ ] Bases de datos (SQLite).  
     - [ ] Estadistica con R.  
+    - [ ] SQLite (Opcional).  
 - [ ] Visualización de datos.  
     - [ ] GnuPlot.  
     - [ ] Paraview/VTK.  
@@ -50,7 +50,8 @@ Entrega estimada: 23 de enero de 2017.
 - [ ] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`.  
 - [ ] Agregar celdas _raws_ con indicaciones de compilación para el archivo LaTeX (nombre de autor, localización para lenguaje español).  
 - [ ] Adecuación de formato de las referencias en celda markdown.  
-- [ ] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase.    
+- [ ] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase.  
+- [ ] Generación de enlace automatico a actividades vigentes de cada taller (secuencia de patrones) al directorio [Evaluación](Evaluación/).  
 
 ## vX.X  
 
@@ -58,3 +59,4 @@ Entrega estimada: 23 de enero de 2017.
 - [ ] Adición de archivo CSS para estilo de presentación del notebook.  
 - [ ] Citación en notebook con la etiqueta html `cite`.  
 - [ ] Versión web/ebook.  
+- [ ] Incorporar submodulos de git dedicados a la ampliación de los contenidos especificos vistos en el curso. Complementario al elemento anterior.  
