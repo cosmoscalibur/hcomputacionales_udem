@@ -20,6 +20,11 @@ A continuación se presenta un conjunto de sitios donde puede encontrar conjunto
 + [IMDB](http://www.imdb.com/).  
 + [Open Benchmarking - Phoronix](http://openbenchmarking.org/).  
 + [DistroWatch](https://distrowatch.com/).  
++ [Datasets used for classification comparison results](http://www.fizyka.umk.pl/kis/projects/datasets.html).  
++ [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.html).  
++ Open Data Government: [California](http://data.ca.gov/), [Australia](http://data.gov.au/), [U.S.](https://www.data.gov/).  
++ [EarthQuake Catalog](http://earthquake.usgs.gov/earthquakes/search/).   
++ [Baloto](http://www.baloto.com/filtro-historico-de-resultados.php).  
 
 Esto solo son algunas recomendaciones de datos abiertos que pueden usar, sin embargo no son una restricción. Se invita a ser creativos, y pensar no solo en proyectos sobre datos estructurados sino en datos que requieran una
 metodología de extracción definida por usted mismo, a partir de páginas diversas como medios de comunicación, sitios de deporte, registros electorales, búsquedas de google entre otras muchas opciones.
