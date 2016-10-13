@@ -25,6 +25,7 @@ A continuación se presenta un conjunto de sitios donde puede encontrar conjunto
 + Open Data Government: [California](http://data.ca.gov/), [Australia](http://data.gov.au/), [U.S.](https://www.data.gov/).  
 + [EarthQuake Catalog](http://earthquake.usgs.gov/earthquakes/search/).   
 + [Baloto](http://www.baloto.com/filtro-historico-de-resultados.php).  
++ [NSF Statistics](https://www.nsf.gov/statistics/).  
 
 Esto solo son algunas recomendaciones de datos abiertos que pueden usar, sin embargo no son una restricción. Se invita a ser creativos, y pensar no solo en proyectos sobre datos estructurados sino en datos que requieran una
 metodología de extracción definida por usted mismo, a partir de páginas diversas como medios de comunicación, sitios de deporte, registros electorales, búsquedas de google entre otras muchas opciones.
@@ -47,6 +48,7 @@ No hay limitaciones en el tipo de proyecto. Esta la invitación a explorar areas
 + La complejidad de las lenguas se puede definir a partir de elementos como el número de repeticiones que presentan palabras especificas en un texto, o el numero de palabras y caracteres requeridos para comunicar una idea. Una forma rapida de identificar la dificultad en el aprendizaje de una lengua es la presencia de multiples formas en la conjugación verbal. Esto último nos muestra que el español tiende a tener mayor dificultad que el ingles. Comparando textos con versiones tanto en español como en ingles, identique cual lengua sería mas compleja bajo el criterior del numero de palabras y caracteres usados para expresar una idea.  
 + Dentro del desarrollo de la ciencia, normalmente los grandes cambios y revoluciones surgen de personajes que fueron discipulos tambien revolucionadores en sus campos. Así la ciencia en sus grandes revoluciones modernos posee una fuerte influencia de los sabios de generaciones atras a traves de sus discipulos. Esta influencia es posible rastrearse y generar las "familias" científicas que dominan cada disciplina. Por ejemplo, en wikipedia es posible encontrar información de los asesores doctorales de los científicos. [Referente](http://www.nature.com/news/majority-of-mathematicians-hail-from-just-24-scientific-families-1.20491).  
 + El perfilado de código posee un análisis estadistico para determinar los puntos debiles y críticos de una implementación para planear una contingencia o mejorar su eficiencia. [Referente](https://nylas.com/blog/performance).  
++ Relaciones de edad o nominaciones de los ganadores (o los que no ganaron) la distinción del premio Nobel. Referentes: [Close but no Nobel: the scientists who never won](http://www.nature.com/news/close-but-no-nobel-the-scientists-who-never-won-1.20781?WT.mc_id=FBK_NatureNews), [Age dynamics in scientific creativity](Age dynamics in scientific creativity), [Average Age for Nobel Laureates in Physics](https://www.nobelprize.org/nobel_prizes/lists/laureates_ages/physics_ages.html) y [Why are Nobel Prize winners getting older?](http://www.bbc.com/news/science-environment-37578899).  
 
 ## Entrega
 
