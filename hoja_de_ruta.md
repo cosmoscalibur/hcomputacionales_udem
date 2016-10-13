@@ -29,9 +29,9 @@ Este repositorio esta abierto a las sugerencias que pueden comunicarme por corre
 - [x] Parcial.  
 - [ ] Proyecto de aula.  
 - [x] Procesamiento de texto.  
-- [ ] _Web scrapping_.  
-- [ ] Procesamiento de datos.  
-    - [ ] Estadistica con R.  
+- [x] _Web scrapping_.  
+- [x] Procesamiento de datos.  
+    - [x] Estadistica con R.  
     - [ ] SQLite (Opcional).  
 - [ ] Visualización de datos.  
     - [ ] GnuPlot.  
@@ -47,8 +47,7 @@ Entrega estimada: 23 de enero de 2017.
 - [ ] Agregar bibliografía recomendada a la presentación del curso.  
 - [ ] Actualizar fechas para 20171.  
 - [ ] Evaluar la recomendación de TeXLive en Windows como alternativa para mejor integración multiplataforma.  
-- [ ] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`.  
-- [ ] Agregar celdas _raws_ con indicaciones de compilación para el archivo LaTeX (nombre de autor, localización para lenguaje español).  
+- [ ] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`.    
 - [ ] Adecuación de formato de las referencias en celda markdown.  
 - [ ] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase.  
 - [ ] Generación de enlace automatico a actividades vigentes de cada taller (secuencia de patrones) al directorio [Evaluación](Evaluación/).  
@@ -60,3 +59,4 @@ Entrega estimada: 23 de enero de 2017.
 - [ ] Citación en notebook con la etiqueta html `cite`.  
 - [ ] Versión web/ebook.  
 - [ ] Incorporar submodulos de git dedicados a la ampliación de los contenidos especificos vistos en el curso. Complementario al elemento anterior.  
+- [ ] Modificación de plantillas por defecto para generación de pdf y de archivos css para la versión web.  
