@@ -14,9 +14,15 @@ Esta actividad consiste en la creación de una pequeña utilidad de algebra comp
 
 ### 20162  
 
-+ [Eduin Serva](https://github.com/EduinHSERNA): [Taller Algebra Computacional Alternativo](https://github.com/EduinHSERNA/Taller-Algebra-Computacional-Alternativo).  
++ [Eduin Serna](https://github.com/EduinHSERNA): [Taller Algebra Computacional Alternativo](https://github.com/EduinHSERNA/Taller-Algebra-Computacional-Alternativo).  
 + [Dario Castaño](https://github.com/dario-castano): [Mini-CAS](https://github.com/dario-castano/miniCAS).  
 
 ## Proyecto de aula  
+
++ [Maquina de aprendizaje de desastres: Titanic](https://github.com/EduinHSERNA/kaggle-titanic).  
++ [Proyecto Baloto](http://github.com/eilinluna16/Proyecto-Baloto).  
++ [Predicción de Partidos de Futbol](https://github.com/JonathanQuiroz/Prediccion-PartidosFutbol).  
++ [Emergencias 911](https://github.com/manuela98/Emergencias_911_).  
++ [Baloto](https://github.com/Gia37/Baloto).    
 
 ### 20162  
