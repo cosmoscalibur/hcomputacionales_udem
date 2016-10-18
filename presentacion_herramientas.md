@@ -47,11 +47,14 @@ El microcurriculo del curso puede consultarse en el siguiente [documento](https:
     + GitHub.  
 + Sistemas de álgebra computacional.  
     + Sympy.  
-    + Maxima.  
-+ Procesamiento de texto y *web scrapping*.  
+    + Maxima (Opcional).  
++ Procesamiento de texto y expresiones regulares.  
++ Extracción web.  
+    + Solicitud web (_Requests_).  
+    + Analisis web sintactico (_Beautifoul Soup_).  
+    + Controlador de navegadores (_Selenium_).  
 + Procesamiento de datos con herramientas estadísticas y bases de datos.  
-    + MySQL.  
-    + SQLite.  
+    + SQLite (Opcional).  
     + R.  
 + Visualización de datos.  
     + GnuPlot.  
@@ -61,7 +64,7 @@ El fin de este curso es aprender a solucionar diversos problemas con ayuda e int
 
 ### Textos guías
 
-Consulte los textos en la carpeta dropbox: [Textos](https://www.dropbox.com/sh/4ikdtyck619h64i/AADELAdeRYXye-leScBxMXl_a?dl=0) (**pendientes de sincronizar**).  
+Se recomienda seguir la bibliografía recomendada en el curriculo y en las notas de clase. Se espera en un futuro no lejano construir un texto a partir del material de este repositorio.  
 
 ## Evaluación  
 
@@ -89,11 +92,11 @@ El tema del proyecto de aula es de libre elección, acorde a sus intereses siemp
 
 + Su proyecto debe alojarse en su totalidad en un repositorio público git en el servicio de github.  
 
-+ Debe requerir de procesamiento de texto y uso al menos básico de utilidades para manejo de datos en la web.  
++ Debe requerir de procesamiento de texto y uso de utilidades para manejo de datos en la web.  
 
-+ El proyecto debe tener una etapa de análisis estadístico (que realizará con R y MySQL/SQLite) o calculo extenso algebraico (que realizará con Sympy o Maxima).  
++ El proyecto debe tener una etapa de análisis estadístico (que realizará con R) o calculo algebraico (que realizará con Sympy o Maxima). Puede usar otros modulos si al menos se presenta una parte con los mencionados inicialmente.  
 
-+ Debe presentarse una visualización asociada a los análisis de los datos con Paraview o Gnuplot.  
++ Debe presentarse una visualización asociada a los análisis de los datos con Paraview o Gnuplot. Puede usar otros modulos o paquetes si al menos una visualización es realizada con los mencionados.  
 
 ### Equipos de trabajo
 
@@ -115,6 +118,8 @@ Los documentos se especificarán un conjunto de normas para su presentación, la
 Se recomienda como distribución linux para su uso, [Ubuntu](http://www.ubuntu.com/download/desktop) LTS (16.04, 14.04). Las versiones LTS aseguran mayor estabilidad y soporte extendido (5 años) a costo de paquetes que no son muy recientes, en contraste de las versiones RR que pueden tener paquetes muy nuevos pero tienen a ser inestables por pasar por cortos periodos de tiempo en la etapa de prueba.  
 
 Si su equipo posee bajas características de hardware, puede usar derivados de Ubuntu como [Lubuntu](http://lubuntu.net/) y [Linux Mint](https://www.linuxmint.com/) que se enfocan en este tipo de equipos, y de gran utilidad si son equipos portátiles.  
+
+Todos los requisitos de software para el desarrollo de este curso se explica su instalación en cada sesión.  
 
 ### Python
 
@@ -181,4 +186,4 @@ Se requiere para este tema la creación de una cuenta [github](https://github.co
 ### Análisis de datos
 
     sudo apt -y install r-base-dev sqlite3 libsqlite3-dev \
-        sqlitebrowser mysql-client mysql-server
+        sqlitebrowser
