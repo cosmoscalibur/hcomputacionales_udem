@@ -27,9 +27,9 @@ Este repositorio esta abierto a las sugerencias que pueden comunicarme por corre
 - [x] Algebra computacional y simpy.  
 - [x] Taller control de versiones y algebra computacional.  
 - [x] Parcial.  
-- [ ] Proyecto de aula.  
+- [x] Proyecto de aula.  
 - [x] Procesamiento de texto.  
-- [x] _Web scrapping_.  
+- [x] Extracción web.  
 - [x] Procesamiento de datos.  
     - [x] Estadistica con R.  
     - [ ] SQLite (Opcional).  
@@ -49,7 +49,7 @@ Entrega estimada: 23 de enero de 2017.
 - [ ] Evaluar la recomendación de TeXLive en Windows como alternativa para mejor integración multiplataforma.  
 - [ ] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`.    
 - [ ] Adecuación de formato de las referencias en celda markdown.  
-- [ ] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase.  
+- [ ] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase (parcialmente cumplido).  
 - [ ] Generación de enlace automatico a actividades vigentes de cada taller (secuencia de patrones) al directorio [Evaluación](Evaluación/).  
 
 ## vX.X  
