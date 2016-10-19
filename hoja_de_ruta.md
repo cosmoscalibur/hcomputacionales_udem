@@ -33,9 +33,9 @@ Este repositorio esta abierto a las sugerencias que pueden comunicarme por corre
 - [x] Procesamiento de datos.  
     - [x] Estadistica con R.  
     - [ ] SQLite (Opcional).  
-- [ ] Visualización de datos.  
-    - [ ] GnuPlot.  
-    - [ ] Paraview/VTK.  
+- [x] Visualización de datos.  
+    - [x] GnuPlot.  
+    - [ ] Paraview/VTK (Opcional).  
 - [ ] Final.  
 
 ## v0.1.1  
