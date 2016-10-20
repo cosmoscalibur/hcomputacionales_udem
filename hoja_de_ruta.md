@@ -51,6 +51,8 @@ Entrega estimada: 23 de enero de 2017.
 - [ ] Adecuación de formato de las referencias en celda markdown.  
 - [ ] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase (parcialmente cumplido).  
 - [ ] Generación de enlace automatico a actividades vigentes de cada taller (secuencia de patrones) al directorio [Evaluación](Evaluación/).  
+- [ ] En GnuPlot incluir instruccion `help` y realizar diagrama que explique los elementos que componen una imagen con sus respectivas palabras claves para la instrucción `set`.  
+- [ ] Incluir material sobre documentación de software.  
 
 ## vX.X  
 
