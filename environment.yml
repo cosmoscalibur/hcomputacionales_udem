@@ -2,7 +2,23 @@ name: herramientas
 channels:
 - conda-forge
 - r
+- anaconda
+- bioconda
+- nodedefaults
+- pkwg
 dependencies:
 - jupyterlab
 - ipywidgets
+- nodejs
+- texlive-core
+- texlive-selected
 - r-essentials
+- gnuplot
+- sympy
+- numpy
+- matplotlib
+- requests
+- beautifoulsoup4
+- zip
+- pip:
+  - gnuplot_kernel
