@@ -1,0 +1,8 @@
+name: herramientas
+channels:
+- conda-forge
+- r
+dependencies:
+- jupyterlab
+- ipywidgets
+- r-essentials
