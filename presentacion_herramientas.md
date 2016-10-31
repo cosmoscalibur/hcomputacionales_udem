@@ -77,8 +77,8 @@ El curso de "Métodos Numéricos" se evaluá acorde al siguiente esquema:
 |8|Septiembre ~14| 25 | P | Individual|
 |11|Octubre 8|10|PA1|Grupal/Individual|
 |13|Octubre 22|10|PA2|Grupal/Individual|
-|15-¿16?|Noviembre 5-¿12?|5|PA3|Grupal/Individual|
-|17|Noviembre ~16| 25 | F | Individual|
+|15|Noviembre 9|10|PA3|Grupal/Individual|
+|17|Noviembre 16| 25 | F | Individual|
 
 La presentación de los talleres (T) y proyectos de aula (PA) se harán en repositorios github públicos, con documentos basados en **LaTeX** y/o **Jupyter**. Los talleres se dispondrán con al menos dos semanas de anticipación a la fecha de entrega (hasta la terminación del día para la realización del último *push* válido).  
 
