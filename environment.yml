@@ -5,7 +5,7 @@ channels:
 - anaconda
 - bioconda
 - nodedefaults
-- pkwg
+- pkgw
 dependencies:
 - jupyterlab
 - ipywidgets
