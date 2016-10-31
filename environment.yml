@@ -18,7 +18,7 @@ dependencies:
 - numpy
 - matplotlib
 - requests
-- beautifoulsoup4
+- beautifulsoup4
 - zip
 - pip:
   - gnuplot_kernel
