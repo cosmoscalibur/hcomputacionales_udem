@@ -21,4 +21,4 @@ dependencies:
 - beautifulsoup4
 - zip
 - pip:
-  - gnuplot_kernel
+  - git+https://github.com/has2k1/gnuplot_kernel.git@master
