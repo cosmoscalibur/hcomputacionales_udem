@@ -1,6 +1,6 @@
 # Presentación
 
-Este documento queda como constancia y recordatorio de las indicaciones y normas pactadas durante la sesión de inducción sobre el curso de _herramientas computacionales_ (código 2975).  
+Este documento queda como constancia y recordatorio de las indicaciones y normas pactadas durante la sesión de inducción sobre el curso de _herramientas computacionales_ (código 6593).  
 
 Bienvenidos a este espacio, y espero que sea un proceso grato y lleno de aprendizaje.  
 
