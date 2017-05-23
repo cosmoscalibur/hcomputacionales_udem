@@ -8,3 +8,7 @@
 *.toc
 # Nano
 *.save
+# Algunos directorios especifícos del curso
+Coordinación
+# Binarios generados con los fuentes
+*.pdf
