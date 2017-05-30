@@ -1,10 +1,10 @@
-# Hoja de ruta  
+# Hoja de ruta
 
 Este documento constituye una referencia del trabajo por realizar en este repositorio y de las posibles mejoras para versiones futuras.  
 
 Las versiones _beta_ de esta documentación son las versiones en desarrollo que se consultan del _master_ del repositorio. Las versiones finales, tras su culminación pasarán a tener etiquetas de versión.  
 
-## v0.1.0  
+## v0.1.0
 
 Entrega estimada: 29 de noviembre de 2016.  
 
@@ -15,50 +15,46 @@ Debido a la experiencia personal y al enfoque del curso, la mayor parte de la in
 
 Este repositorio esta abierto a las sugerencias que pueden comunicarme por correo, chat o persona quienes me conocen, o pueden reportar la mejora o sugerencia como un [ISSUE](https://github.com/cosmoscalibur/herramientas_computacionales/issues).  
 
-- [x] Presentación del curso.  
-- [x] Documentación científica y software.  
-    - [x] Jupyter Notebook.  
-    - [x] LaTeX.  
-- [x] Linux.  
-    - [x] Utilidades básicas y sistema de archivos.  
-    - [x] Programación en bash.    
-- [x] Taller Documentación y linux.
-- [x] Control de versiones con Git.  
-- [x] Algebra computacional y simpy.  
-- [x] Taller control de versiones y algebra computacional.  
-- [x] Parcial.  
-- [x] Proyecto de aula.  
-- [x] Procesamiento de texto.  
-- [x] Extracción web.  
-- [x] Procesamiento de datos.  
-    - [x] Estadistica con R.  
-    - [ ] SQLite (Opcional).  
-- [x] Visualización de datos.  
-    - [x] GnuPlot.  
-    - [ ] Paraview/VTK (Opcional).  
-- [ ] Final.  
+-   [x] Presentación del curso.  
+-   [x] Documentación científica y software.  
+    -   [x] Jupyter Notebook.  
+    -   [x] LaTeX.  
+-   [x] Linux.  
+    -   [x] Utilidades básicas y sistema de archivos.  
+    -   [x] Programación en bash.    
+-   [x] Taller Documentación y linux.
+-   [x] Control de versiones con Git.  
+-   [x] Algebra computacional y simpy.  
+-   [x] Taller control de versiones y algebra computacional.  
+-   [x] Parcial.  
+-   [x] Proyecto de aula.  
+-   [x] Procesamiento de texto.  
+-   [x] Extracción web.  
+-   [x] Procesamiento de datos.  
+    -   [x] Estadistica con R.  
+-   [x] Visualización de datos.  
+    -   [x] GnuPlot.  
+-   [ ] Final.  
 
 ## v0.1.1  
 
 Esta versión es una entrega de corrección de errores en esencia. No hay cambios importantes del contenido salvo la mejora de la redacción.  
 
-Entrega estimada: 23 de enero de 2017.  
+Entrega estimada: Segundo semestre de 2017 (retraso dado que no tuve asignación del curso por ser docente de cátedra y ser curso dirigido en esta ocasión).  
 
-- [ ] Agregar bibliografía recomendada a la presentación del curso.  
-- [ ] Actualizar fechas para 20171.  
-- [ ] Evaluar la recomendación de TeXLive en Windows como alternativa para mejor integración multiplataforma.  
-- [ ] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`.    
-- [ ] Adecuación de formato de las referencias en celda markdown.  
-- [ ] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase (parcialmente cumplido).  
-- [ ] Generación de enlace automatico a actividades vigentes de cada taller (secuencia de patrones) al directorio [Evaluación](Evaluación/).  
-- [ ] En GnuPlot incluir instruccion `help` y realizar diagrama que explique los elementos que componen una imagen con sus respectivas palabras claves para la instrucción `set`.  
-- [ ] Incluir material sobre documentación de software.  
+-   [ ] Agregar bibliografía recomendada a la presentación del curso.  
+-   [ ] Evaluar la recomendación de TeXLive en Windows como alternativa para mejor integración multiplataforma.  
+-   [ ] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`.    
+-   [ ] Adecuación de formato de las referencias en celda markdown.  
+-   [ ] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase (parcialmente cumplido).  
+-   [ ] En GnuPlot incluir instruccion `help` y realizar diagrama que explique los elementos que componen una imagen con sus respectivas palabras claves para la instrucción `set`.  
+-   [ ] Incluir material sobre documentación de software.  
 
 ## vX.X  
 
-- [ ] _Script_ de instalación (descarga del contenido e instalación de paquetes requeridos para el desarrollo del curso).
-- [ ] Adición de archivo CSS para estilo de presentación del notebook.  
-- [ ] Citación en notebook con la etiqueta html `cite`.  
-- [ ] Versión web/ebook.  
-- [ ] Incorporar submodulos de git dedicados a la ampliación de los contenidos especificos vistos en el curso. Complementario al elemento anterior.  
-- [ ] Modificación de plantillas por defecto para generación de pdf y de archivos css para la versión web.  
+-   [ ] _Script_ de instalación (descarga del contenido e instalación de paquetes requeridos para el desarrollo del curso).
+-   [ ] Adición de archivo CSS para estilo de presentación del notebook.  
+-   [ ] Citación en notebook con la etiqueta html `cite`.  
+-   [ ] Versión web/ebook.  
+-   [ ] Incorporar submodulos de git dedicados a la ampliación de los contenidos especifícos vistos en el curso. Complementario al elemento anterior.  
+-   [ ] Modificación de plantillas por defecto para generación de pdf y de archivos css para la versión web.  
