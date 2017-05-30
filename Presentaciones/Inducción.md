@@ -112,4 +112,4 @@ Para la adecuada comprensión de este curso se recomienda
 +   [Actividades](Actividades.md).  
 +   [Recursos](Recursos.md).  
 +   [Software requerido](Requisitos.md)  
-+   [Microcurrículo]().  
++   [Microcurrículo](https://www.dropbox.com/s/0xlgkhv87ldzhj4/Herramientas-Computacionales_v3.pdf?dl=0 "Versión 3 del microcurrículo diseñada por Edward Villegas.").  
