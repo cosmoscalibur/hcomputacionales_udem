@@ -34,7 +34,7 @@ Este repositorio esta abierto a las sugerencias que pueden comunicarme por corre
     -   [x] Estadistica con R.  
 -   [x] Visualización de datos.  
     -   [x] GnuPlot.  
--   [ ] Final.  
+-   [x] Final.  
 
 ## v0.1.1  
 
@@ -42,13 +42,13 @@ Esta versión es una entrega de corrección de errores en esencia. No hay cambio
 
 Entrega estimada: Segundo semestre de 2017 (retraso dado que no tuve asignación del curso por ser docente de cátedra y ser curso dirigido en esta ocasión).  
 
--   [ ] Agregar bibliografía recomendada a la presentación del curso.  
--   [ ] Evaluar la recomendación de TeXLive en Windows como alternativa para mejor integración multiplataforma.  
--   [ ] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`.    
+-   [x] Agregar bibliografía recomendada a la presentación del curso. __Acción__: Se agrego archivo de [recursos](Presentaciones/Recursos.md).  
+-   [x] Evaluar la recomendación de TeXLive en Windows como alternativa para mejor integración multiplataforma. __Acción__: Por facilidades en la instalación se recomienda usar MikTeX. El usuario avanzado puede intentar instalar TexLive y esto le permitiría tener una mayor reproducibilidad en el comportamiento de la compilación de archivos.  
+-   [x] Renombrar archivos acorde al orden de los temas. `00_Nombre_tema.formato`. __Acción__: Convención aplicada.    
 -   [ ] Adecuación de formato de las referencias en celda markdown.  
 -   [ ] Mejorar redacción (o agregar cuando corresponda) de la explicación del tema alrededor de las ejemplificaciones usadas como notas de clase (parcialmente cumplido).  
 -   [ ] En GnuPlot incluir instruccion `help` y realizar diagrama que explique los elementos que componen una imagen con sus respectivas palabras claves para la instrucción `set`.  
--   [ ] Incluir material sobre documentación de software.  
+-   [x] Incluir material sobre documentación de software. __Acción__: Por motivos de tiempo es imposible incluir el tema como parte oficial del curso, pero se agregan fuentes complementarias en el archivo de [recursos](Presentaciones/Recursos.md).  
 
 ## vX.X  
 
@@ -56,5 +56,4 @@ Entrega estimada: Segundo semestre de 2017 (retraso dado que no tuve asignación
 -   [ ] Adición de archivo CSS para estilo de presentación del notebook.  
 -   [ ] Citación en notebook con la etiqueta html `cite`.  
 -   [ ] Versión web/ebook.  
--   [ ] Incorporar submodulos de git dedicados a la ampliación de los contenidos especifícos vistos en el curso. Complementario al elemento anterior.  
 -   [ ] Modificación de plantillas por defecto para generación de pdf y de archivos css para la versión web.  
